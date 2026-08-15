@@ -1,0 +1,11 @@
+/*
+ * Font families used by the hero.
+ * The actual font files are loaded via <link> tags in src/routes/__root.tsx
+ * (Google Fonts: Inter 400/500/600/700 and Instrument Serif regular + italic),
+ * because remote @import rules cannot be resolved by the CSS build here.
+ */
+
+:root {
+  --font-inter: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-instrument-serif: "Instrument Serif", ui-serif, Georgia, serif;
+}
